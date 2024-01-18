@@ -34,6 +34,7 @@ public class AuthScreen implements Screen{
 	private void init(){
 
 
+
 		Gdx.graphics.setContinuousRendering(true);
 		font = new BitmapFont();
 		stage = new Stage(new FitViewport((float) Gdx.graphics.getWidth() ,(float)Gdx.graphics.getHeight()  ));
