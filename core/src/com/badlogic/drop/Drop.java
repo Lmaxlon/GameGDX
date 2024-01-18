@@ -24,6 +24,7 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 public class Drop extends Game {
 
 
+
 	@Override
 	public void create() {
 this.setScreen(new AuthScreen(this));
