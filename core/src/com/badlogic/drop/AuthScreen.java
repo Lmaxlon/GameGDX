@@ -36,6 +36,7 @@ public class AuthScreen implements Screen{
 
 
 
+
 		Gdx.graphics.setContinuousRendering(true);
 		font = new BitmapFont();
 		stage = new Stage(new FitViewport((float) Gdx.graphics.getWidth() ,(float)Gdx.graphics.getHeight()  ));
@@ -58,15 +59,7 @@ public class AuthScreen implements Screen{
 		TextButton buttonCreate = new TextButton("Create", skin);
 		final TextButton buttonLog = new TextButton("Log in", skin);
 
-		buttonLog.addListener(new EventListener() {
-			@Override
-			public boolean handle(Event event) {
-				Gdx.input.setOnscreenKeyboardVisible(false);
-				game.dispose();
-				game.setScreen(new Map());
-				return false;
-			}
-		});
+
 
 
 
