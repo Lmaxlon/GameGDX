@@ -27,6 +27,7 @@ public class AuthScreen implements Screen{
 	public AuthScreen(Game game){
 		this.game=game;
 		init();
+		game.setScreen(new AuthScreen(game));
 	}
 
 
