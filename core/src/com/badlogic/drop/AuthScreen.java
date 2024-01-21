@@ -27,17 +27,12 @@ public class AuthScreen implements Screen{
 	public AuthScreen(Game game){
 		this.game=game;
 		init();
-		game.setScreen(new AuthScreen(game));
+
 	}
 
 
 
 	private void init(){
-
-
-
-
-
 		Gdx.graphics.setContinuousRendering(true);
 		font = new BitmapFont();
 		stage = new Stage(new FitViewport((float) Gdx.graphics.getWidth() ,(float)Gdx.graphics.getHeight()  ));
@@ -59,11 +54,15 @@ public class AuthScreen implements Screen{
 		TextField textPassword=new TextField("password", skin);
 		TextButton buttonCreate = new TextButton("Create", skin);
 		final TextButton buttonLog = new TextButton("Log in", skin);
-
-
-
-
-
+		buttonLog.addListener(new EventListener() {
+			@Override
+			public boolean handle(Event event) {
+				Gdx.input.setOnscreenKeyboardVisible(false);
+				game.dispose();
+				game.setScreen(new Map());
+				return false;
+			}
+		});
 
 		table.top();
 		table.defaults().width(300);
