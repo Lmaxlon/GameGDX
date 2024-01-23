@@ -13,6 +13,9 @@ buildscript {
         classpath 'com.android.tools.build:gradle:7.3.1'
 
 
+
+
+
     }
 }
 
@@ -55,11 +58,15 @@ project(":android") {
         implementation project(":core")
         implementation 'com.badlogicgames.gdx:gdx:1.9.10'
         implementation 'com.badlogicgames.gdx:gdx-backend-android:1.9.10'
+
         api "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi-v7a"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-arm64-v8a"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-x86_64"
+
+
+
         
     }
 }

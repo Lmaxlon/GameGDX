@@ -50,8 +50,10 @@ public class AuthScreen implements Screen{
 		BitmapFont font = labelLogin.getStyle().font; // получение шрифта TextField
 		font.getData().setScale(3);
 		final TextField textLogin=new TextField("login", skin);
+		textLogin.setMaxLength(10);
 		Label labelPasswoed=new Label("password:", skin);
 		TextField textPassword=new TextField("password", skin);
+		textPassword.setMaxLength(10);
 		TextButton buttonCreate = new TextButton("Create", skin);
 		final TextButton buttonLog = new TextButton("Log in", skin);
 		buttonLog.addListener(new EventListener() {
@@ -59,6 +61,9 @@ public class AuthScreen implements Screen{
 			public boolean handle(Event event) {
 				Gdx.input.setOnscreenKeyboardVisible(false);
 				game.dispose();
+				String login=textLogin.getText();
+				String password=textPassword.getText();
+				HttpClient.connectToServer(login, password );
 				game.setScreen(new Map());
 				return false;
 			}
@@ -73,6 +78,8 @@ public class AuthScreen implements Screen{
 		table.add(textPassword);
 		table.row();
 		table.add(buttonLog).width(600).colspan(2);
+		table.row();
+		table.add(buttonCreate).width(600).colspan(2);
 		stage.addActor(table);
 
 	}

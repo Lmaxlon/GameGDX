@@ -1,5 +1,6 @@
 package com.badlogic.drop;
 
+import com.badlogic.gdx.Application;
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
@@ -30,7 +31,12 @@ public class Drop extends Game {
 
 	@Override
 	public void create() {
-this.setScreen(new AuthScreen(this));
+		Gdx.app.setLogLevel(Application.LOG_DEBUG);
+		//Task myTask = new Task();
+		//Gdx.app.postRunnable(myTask);
+
+
+		this.setScreen(new AuthScreen(this));
 	}
 
 

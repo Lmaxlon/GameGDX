@@ -5,6 +5,6 @@ import com.badlogic.gdx.Gdx;
 public class Task implements Runnable {
     @Override
     public void run() {
-        HttpClient.connectToServer("2.tcp.eu.ngrok.io",15754 );
+       // HttpClient.connectToServer("2.tcp.eu.ngrok.io",15754 );
     }
 }

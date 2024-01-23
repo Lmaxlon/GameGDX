@@ -4,20 +4,27 @@ import com.badlogic.gdx.Net;
 import com.badlogic.gdx.net.HttpRequestBuilder;
 import com.badlogic.gdx.net.HttpStatus;
 
+import org.json.simple.JSONObject;
+
 public class HttpClient {
-     public static void connectToServer(String ip, int port) {
+     public static void connectToServer(String login, String password) {
           HttpRequestBuilder builder = new HttpRequestBuilder();
-          Net.HttpRequest httpRequest = builder.newRequest().method(Net.HttpMethods.GET).url("http://" + ip + ":" + port ).build();
+         HelperForJsonBody body=new HelperForJsonBody(new JSONObject());
+         String jsonStr=body.FormAuth(login,password).toJSONString();
+         Net.HttpRequest httpRequest = builder.newRequest().method(Net.HttpMethods.POST)                 .url("https://8e22-5-228-80-154.ngrok-free.app/api")
+                 .content(jsonStr)
+                 .header("Content-Type", "application/json")
+                 .build();
 
           Gdx.net.sendHttpRequest(httpRequest, new Net.HttpResponseListener() {
                @Override
-               public void handleHttpResponse(Net.HttpResponse httpResponse) {
+                public void handleHttpResponse(Net.HttpResponse httpResponse) {
                     HttpStatus status = httpResponse.getStatus();
                     if (status.getStatusCode() == HttpStatus.SC_OK) {
                          String response = httpResponse.getResultAsString();
-                         System.out.println("win");
+                         Gdx.app.debug("tag","response server");
                     } else {
-                         // Обработка ошибки подключения
+                         Gdx.app.debug("tag","response server1"+status.getStatusCode());
                     }
                }
 
