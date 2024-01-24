@@ -63,7 +63,7 @@ public class AuthScreen implements Screen{
 				game.dispose();
 				String login=textLogin.getText();
 				String password=textPassword.getText();
-				HttpClient.connectToServer(login, password );
+				Gdx.app.postRunnable(new Task(login,password));
 				game.setScreen(new Map());
 				return false;
 			}
