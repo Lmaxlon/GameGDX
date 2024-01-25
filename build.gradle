@@ -15,12 +15,12 @@ buildscript {
 
 
 
-
     }
 }
 
 allprojects {
     apply plugin: "eclipse"
+    apply plugin: "idea"
 
     version = '1.0'
     ext {
@@ -58,6 +58,7 @@ project(":android") {
         implementation project(":core")
         implementation 'com.badlogicgames.gdx:gdx:1.9.10'
         implementation 'com.badlogicgames.gdx:gdx-backend-android:1.9.10'
+        implementation 'com.badlogicgames.gdx:gdx-tools:1.9.10'
 
         api "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
         natives "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-armeabi-v7a"

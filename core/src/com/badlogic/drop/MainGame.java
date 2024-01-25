@@ -2,15 +2,14 @@ package com.badlogic.drop;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.ApplicationAdapter;
 
 public class MainGame extends Game {
 
     private SpriteBatch batch;
     private OrthographicCamera camera;
+
 
     @Override
     public void create() {
