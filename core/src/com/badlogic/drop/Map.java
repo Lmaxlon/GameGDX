@@ -51,7 +51,7 @@ public class Map implements Screen {
         rocksTexture = new Texture(Gdx.files.internal("rocks.png"));
         rocksTexture.setFilter(Texture.TextureFilter.Nearest, Texture.TextureFilter.Nearest); // Установка параметра фильтрации
         welcomeBack = new Texture(Gdx.files.internal("welcome_back.png"));
-        citadel = new Texture(Gdx.files.internal("citadel.png"));
+        citadel = new Texture(Gdx.files.internal("base.png"));
         font = new BitmapFont();
         font.getData().setScale(3f);
         font.getRegion().getTexture().setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
@@ -62,7 +62,7 @@ public class Map implements Screen {
         islandMap = new int[mapWidth][mapHeight];
         for (int x = 0; x < mapWidth; x++) {
             for (int y = 0; y < mapHeight; y++) {
-                islandMap[x][y] = (Math.random() < 0.100) ? 0 : 1; // Предполагаем, что 1 - это тип "rocks", 0 - это тип "grass"
+                islandMap[x][y] = (Math.random() < 0.030) ? 0 : 1; // Предполагаем, что 1 - это тип "rocks", 0 - это тип "grass"
             }
         }
         // Проход по карте для группировки клеток типа "rocks"
@@ -176,7 +176,7 @@ public class Map implements Screen {
             }
             float centerX = 5 * cellSize * 0.75f + ((5 % 2 == 0) ? 0 : cellSize) + mapX;
             float centerY = cellSize * 0.5f + mapY;;
-            batch.draw(citadel, centerX, centerY, citadel.getWidth() / 3, citadel.getHeight() / 3);
+            batch.draw(citadel, centerX + cellSize * 8, centerY + cellSize * 7, citadel.getWidth(), citadel.getHeight());
             batch.setProjectionMatrix(new Matrix4().setToOrtho2D(0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight())); // Сброс камеры
             font.draw(batch, "Pre-alpha version", Gdx.graphics.getWidth() - 400, Gdx.graphics.getHeight() - 50);
             batch.end();
