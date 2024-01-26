@@ -24,6 +24,7 @@ public class AuthScreen implements Screen{
 	public Game game;
 	SpriteBatch batch;
 	Texture img;
+	Texture lastFrame;
 	public Stage stage;
 	public TextureAtlas textureAtlas;
 	public Animation<TextureRegion> animation;
@@ -41,20 +42,21 @@ public class AuthScreen implements Screen{
 		Gdx.input.setInputProcessor(stage);
 		batch = new SpriteBatch();
 		img = new Texture("authPicture/black.jpg");
-		//textureAtlas = new TextureAtlas(Gdx.files.internal("atlas/authback_atlas.atlas"));
-		//animation = new Animation<>(0.1f, textureAtlas.findRegions("authback_atlas"), Animation.PlayMode.LOOP);
-		/*Texture[] textures = new Texture[164];
-		for (int i = 0; i < 163; i++) {
+		lastFrame = new Texture("atlas/authback_atlas42.png");
+		textureAtlas = new TextureAtlas(Gdx.files.internal("atlas/authback_atlas.atlas"));
+		animation = new Animation<>(0.1f, textureAtlas.findRegions("authback_atlas"), Animation.PlayMode.LOOP);
+		Texture[] textures = new Texture[43];
+		for (int i = 0; i < 42; i++) {
 			textures[i] = new Texture(Gdx.files.internal("atlas/authback_atlas" + (i + 1) + ".png"));
 		}
-		TextureRegion[] frames = new TextureRegion[164];
-		for (int i = 0; i < 163; i++) {
+		TextureRegion[] frames = new TextureRegion[43];
+		for (int i = 0; i < 42; i++) {
 			frames[i] = new TextureRegion(textures[i]);
 		}
 
-		animation = new Animation<TextureRegion>(0.05f, frames);
+		animation = new Animation<TextureRegion>(0.07f, frames);
 
-		 */
+
 
 
 
@@ -117,16 +119,17 @@ public class AuthScreen implements Screen{
 		ScreenUtils.clear(1, 0, 0, 1);
 		batch.begin();
 		batch.draw(img, 0, 0);
-		/*stateTime += delta; // Увеличиваем время анимации на время прошедшее с предыдущего кадра
+		stateTime += delta; // Увеличиваем время анимации на время прошедшее с предыдущего кадра
 		TextureRegion currentFrame = animation.getKeyFrame(stateTime, false);
 		if (currentFrame != null) {
-			batch.draw(currentFrame, 450, -700, Gdx.graphics.getWidth() - 500, Gdx.graphics.getHeight() + 650);
+			batch.draw(currentFrame, 50, -875, Gdx.graphics.getWidth(), Gdx.graphics.getHeight() + 800);
 		} else {
 			// Анимация завершилась, начнем ее сначала
+			batch.draw(lastFrame, 50, -875, Gdx.graphics.getWidth(), Gdx.graphics.getHeight() + 800);
 			stateTime = 0;
 		}
 
-		 */
+
 		batch.end();
 		stage.act(delta);
 		stage.draw();

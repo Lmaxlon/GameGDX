@@ -7,8 +7,8 @@ repeat: none
 0
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -20,8 +20,8 @@ repeat: none
 1
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -33,8 +33,8 @@ repeat: none
 2
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -46,8 +46,15 @@ repeat: none
 3
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 2, 2
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -56,11 +63,18 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-4
+5
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 2, 2
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -69,11 +83,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-5
+7
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -82,11 +96,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-6
+8
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -95,11 +109,18 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-7
+9
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 2, 2
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -108,11 +129,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-8
+11
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -121,11 +142,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-9
+12
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -134,11 +155,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-10
+13
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -147,11 +168,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-11
+14
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -160,11 +181,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-12
+15
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -173,11 +194,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-13
+16
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -186,11 +207,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-14
+17
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -199,11 +220,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-15
+18
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -212,11 +233,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-16
+19
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -225,11 +246,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-17
+20
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -238,11 +259,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-18
+21
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -251,11 +272,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-19
+22
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -264,11 +285,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-20
+23
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -277,11 +298,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-21
+24
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -290,11 +311,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-22
+25
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -303,11 +324,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-23
+26
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -316,11 +337,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-24
+27
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -329,11 +350,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-25
+28
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -342,11 +363,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-26
+29
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -355,11 +376,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-27
+30
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -368,11 +389,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-28
+31
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -381,11 +402,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-29
+32
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -394,11 +415,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-30
+33
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -407,11 +428,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-31
+34
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -420,11 +441,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-32
+35
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -433,11 +454,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-33
+36
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -446,11 +467,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-34
+37
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -459,11 +480,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-35
+38
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -472,11 +493,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-36
+39
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -485,11 +506,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-37
+40
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -498,11 +519,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-38
+41
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -511,11 +532,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-39
+42
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -524,11 +545,11 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-40
+43
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1
 
@@ -537,1596 +558,10 @@ size: 1024,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-41
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas43.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-42
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas44.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-43
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas45.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
 44
   rotate: false
   xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas46.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-45
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas47.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-46
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas48.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-47
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas49.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-48
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas50.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-49
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas51.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-50
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas52.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-51
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas53.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-52
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas54.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-53
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas55.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-54
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas56.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-55
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas57.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-56
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas58.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-57
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas59.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-58
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas60.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-59
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas61.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-60
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas62.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-61
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas63.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-62
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas64.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-63
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas65.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-64
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas66.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-65
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas67.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-66
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas68.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-67
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas69.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-68
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas70.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-69
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas71.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-70
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas72.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-71
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas73.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-72
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas74.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-73
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas75.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-74
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas76.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-75
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas77.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-76
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas78.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-77
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas79.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-78
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas80.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-79
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas81.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-80
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas82.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-81
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas83.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-82
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas84.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-83
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas85.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-84
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas86.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-85
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas87.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-86
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas88.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-87
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas89.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-88
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas90.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-89
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas91.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-90
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas92.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-91
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas93.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-92
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas94.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-93
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas95.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-94
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas96.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-95
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas97.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-96
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas98.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-97
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas99.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-98
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas100.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-99
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas101.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-100
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas102.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-101
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas103.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-102
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas104.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-103
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas105.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-104
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas106.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-105
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas107.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-106
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas108.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-107
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas109.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-108
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas110.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-109
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas111.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-110
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas112.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-111
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas113.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-112
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas114.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-113
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas115.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-114
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas116.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-115
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas117.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-116
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas118.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-117
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas119.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-118
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas120.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-119
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas121.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-120
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas122.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-121
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas123.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-122
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas124.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-123
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas125.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-124
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas126.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-125
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas127.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-126
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas128.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-127
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas129.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-128
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas130.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-129
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas131.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-130
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas132.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-131
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas133.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-132
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas134.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-133
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas135.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-134
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas136.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-135
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas137.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-136
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas138.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-137
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas139.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-138
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas140.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-139
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas141.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-140
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas142.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-141
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas143.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-142
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas144.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-143
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas145.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-144
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas146.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-145
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas147.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-146
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas148.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-147
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas149.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-148
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas150.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-149
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas151.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-150
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas152.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-151
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas153.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-152
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas154.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-153
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas155.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-154
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas156.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-155
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas157.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-156
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas158.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-157
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas159.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-158
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas160.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-159
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas161.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-160
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas162.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-161
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas163.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-162
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
-  offset: 0, 0
-  index: -1
-
-authback_atlas164.png
-size: 1024,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
-163
-  rotate: false
-  xy: 2, 2
-  size: 800, 600
-  orig: 800, 600
+  size: 960, 540
+  orig: 960, 540
   offset: 0, 0
   index: -1

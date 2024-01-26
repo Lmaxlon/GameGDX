@@ -28,7 +28,7 @@ public class Map implements Screen {
     private Texture cellTexture;
     private Texture rocksTexture;
     private int mapWidth = 30; // Ширина острова в клетках
-    private int mapHeight = 30; // Высота острова в клетках
+    private int mapHeight = 60; // Высота острова в клетках
     private int[][] islandMap; // Карта острова, где каждое значение представляет тип клетки (например, вода, земля и т. д.)
     private float cellSize = 150; // Размер клетки
     private Vector2 touch1 = new Vector2();
