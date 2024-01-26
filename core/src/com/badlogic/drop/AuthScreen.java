@@ -31,7 +31,6 @@ public class AuthScreen implements Screen{
 	public AuthScreen(Game game){
 		this.game=game;
 		init();
-
 	}
 
 	private void init(){
@@ -42,9 +41,9 @@ public class AuthScreen implements Screen{
 		Gdx.input.setInputProcessor(stage);
 		batch = new SpriteBatch();
 		img = new Texture("authPicture/black.jpg");
-		textureAtlas = new TextureAtlas(Gdx.files.internal("atlas/authback_atlas.atlas"));
+		//textureAtlas = new TextureAtlas(Gdx.files.internal("atlas/authback_atlas.atlas"));
 		//animation = new Animation<>(0.1f, textureAtlas.findRegions("authback_atlas"), Animation.PlayMode.LOOP);
-		Texture[] textures = new Texture[164];
+		/*Texture[] textures = new Texture[164];
 		for (int i = 0; i < 163; i++) {
 			textures[i] = new Texture(Gdx.files.internal("atlas/authback_atlas" + (i + 1) + ".png"));
 		}
@@ -54,6 +53,12 @@ public class AuthScreen implements Screen{
 		}
 
 		animation = new Animation<TextureRegion>(0.05f, frames);
+
+		 */
+
+
+
+
 
 		Skin skin =new Skin(Gdx.files.internal("authPicture/uiskin.json"));;
 		Table table = new Table();
@@ -78,7 +83,7 @@ public class AuthScreen implements Screen{
 				game.dispose();
 				String login=textLogin.getText();
 				String password=textPassword.getText();
-				HttpClient.connectToServer(login, password );
+				Gdx.app.postRunnable(new Task(login,password));
 				game.setScreen(new Map());
 				return false;
 			}
@@ -112,7 +117,7 @@ public class AuthScreen implements Screen{
 		ScreenUtils.clear(1, 0, 0, 1);
 		batch.begin();
 		batch.draw(img, 0, 0);
-		stateTime += delta; // Увеличиваем время анимации на время прошедшее с предыдущего кадра
+		/*stateTime += delta; // Увеличиваем время анимации на время прошедшее с предыдущего кадра
 		TextureRegion currentFrame = animation.getKeyFrame(stateTime, false);
 		if (currentFrame != null) {
 			batch.draw(currentFrame, 450, -700, Gdx.graphics.getWidth() - 500, Gdx.graphics.getHeight() + 650);
@@ -120,6 +125,8 @@ public class AuthScreen implements Screen{
 			// Анимация завершилась, начнем ее сначала
 			stateTime = 0;
 		}
+
+		 */
 		batch.end();
 		stage.act(delta);
 		stage.draw();
