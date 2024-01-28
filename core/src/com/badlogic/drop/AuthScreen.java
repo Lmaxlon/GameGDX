@@ -89,31 +89,35 @@ public class AuthScreen implements Screen{
                 game.dispose();
                 String login=textLogin.getText();
                 String password=textPassword.getText();
+                Gdx.app.postRunnable(new Task(login,password,game,new AuthScreen(game)));
                 //Gdx.app.postRunnable(new Task(login,password,game));
                 Gdx.input.setOnscreenKeyboardVisible(false);
-                game.setScreen(new Map());
+                //game.setScreen(new Map());
 
-                return false;
+                return true;
             }
         });
         buttonCreate.addListener(new EventListener() {
 
             @Override
             public boolean handle(Event event) {
-                game.dispose();
+
                 String login=textLogin.getText();
                 String password=textPassword.getText();
-                //new HttpClient().connectToServer(login, password);
-                Gdx.input.setOnscreenKeyboardVisible(false);
-                if(password.length()<7){
-                    game.dispose();
-                    game.setScreen(new ErrorScreen(game,"short password",new AuthScreen(game)));
+
+                if(password.length()<3){
+                    //game.dispose();
+                   game.setScreen(new ErrorScreen(game,"short password",new AuthScreen(game)));
                 }else {
-                    game.dispose();
-                    //Gdx.app.postRunnable(new Task(login,password,game));
-                    game.setScreen(new Map());
+                    //game.dispose();
+                   // game.setScreen(new ErrorScreen(game,s,new AuthScreen(game)));
+                    Gdx.app.postRunnable(new Task(login,password,game,new AuthScreen(game)));
+                   // Gdx.input.setOnscreenKeyboardVisible(false);
+                    //game.setScreen(new Map());
                     //game.setScreen(new ErrorScreen(game,"short password",new AuthScreen(game)));
                 }
+                //game.dispose();
+                dispose();
                 return false;
             }
         });
@@ -197,6 +201,6 @@ public class AuthScreen implements Screen{
         game.dispose();
         batch.dispose();
         img.dispose();
-        textureAtlas.dispose();
+        //textureAtlas.dispose();
     }
 }
