@@ -49,6 +49,7 @@ public class Drop extends Game {
 
 	@Override
 	public void dispose() {
+		if (screen != null) screen.hide();
 
 	}
 }
