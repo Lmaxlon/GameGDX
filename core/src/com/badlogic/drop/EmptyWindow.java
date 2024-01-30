@@ -15,6 +15,8 @@ public class EmptyWindow extends Stage {
     private Window window;
     public boolean isWindowOpen;
     public int great_push;
+    public int cost;
+    private Label costLabel;
 
     public EmptyWindow() {
         skin = new Skin(Gdx.files.internal("authPicture/uiskin.json"));
@@ -27,19 +29,23 @@ public class EmptyWindow extends Stage {
         window.setPosition(600, 125);
 
         Label messageLabel = new Label("Are you really want to buy this building? This building have a cost", skin);
-        messageLabel.setFontScale(2);
+        messageLabel.setFontScale(3);
 
         TextButton closeButton = new TextButton("Close", skin);
-        closeButton.getLabel().setFontScale(2);
+        closeButton.getLabel().setFontScale(3);
         closeButton.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                hide(); // Скрываем окно при нажатии на кнопку "Close"
+                hide(); // Hide the window when the close button is clicked
             }
         });
 
+        // Create a label for displaying the cost
+        costLabel = new Label("", skin);
+        costLabel.setFontScale(2);
+
         TextButton purchaseButton = new TextButton("Purchase", skin);
-        purchaseButton.getLabel().setFontScale(2);
+        purchaseButton.getLabel().setFontScale(3);
         purchaseButton.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
@@ -50,6 +56,7 @@ public class EmptyWindow extends Stage {
 
         Table contentTable = new Table();
         contentTable.add(messageLabel).pad(10).row();
+        contentTable.add(costLabel).pad(10).row(); // Add the cost label
         contentTable.add(purchaseButton).pad(10).row(); // Add the purchase button
         contentTable.add(closeButton).pad(10);
 
@@ -57,7 +64,26 @@ public class EmptyWindow extends Stage {
         addActor(window);
     }
 
-    public void show() {
+    private void updateCostLabel() {
+        costLabel.setText("Cost: " + cost + "M$");
+        costLabel.setFontScale(3);
+    }
+
+
+    public void set_cost(int num) {
+        if (num == 1){
+            cost = 10;
+        }
+        if (num == 2){
+            cost = 20;
+        }
+        if (num == 3){
+            cost = 30;
+        }
+        updateCostLabel();
+    }
+
+    public void show(){
         window.setVisible(true);
         isWindowOpen = true;
     }

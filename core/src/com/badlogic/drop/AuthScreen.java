@@ -42,7 +42,7 @@ public class AuthScreen implements Screen{
         Gdx.input.setInputProcessor(stage);
         batch = new SpriteBatch();
         img = new Texture("authPicture/black.jpg");
-        /*
+
         lastFrame = new Texture("atlas/authback_atlas42.png");
         textureAtlas = new TextureAtlas(Gdx.files.internal("atlas/authback_atlas.atlas"));
         animation = new Animation<>(0.1f, textureAtlas.findRegions("authback_atlas"), Animation.PlayMode.LOOP);
@@ -57,7 +57,7 @@ public class AuthScreen implements Screen{
 
         animation = new Animation<TextureRegion>(0.07f, frames);
 
-         */
+
 
 
 
@@ -105,7 +105,7 @@ public class AuthScreen implements Screen{
                 String login=textLogin.getText();
                 String password=textPassword.getText();
 
-                if(password.length()<3){
+                if(password.length()<2){
                     //game.dispose();
                    game.setScreen(new ErrorScreen(game,"short password",new AuthScreen(game)));
                 }else {
@@ -152,7 +152,7 @@ public class AuthScreen implements Screen{
         ScreenUtils.clear(1, 0, 0, 1);
         batch.begin();
         batch.draw(img, 0, 0);
-        /*
+
         stateTime += delta; // Увеличиваем время анимации на время прошедшее с предыдущего кадра
         TextureRegion currentFrame = animation.getKeyFrame(stateTime, false);
         if (currentFrame != null) {
@@ -163,7 +163,7 @@ public class AuthScreen implements Screen{
             stateTime = 0;
         }
 
-         */
+
 
 
         batch.end();
@@ -201,6 +201,8 @@ public class AuthScreen implements Screen{
         game.dispose();
         batch.dispose();
         img.dispose();
+        lastFrame.dispose();
+        textureAtlas.dispose();
         //textureAtlas.dispose();
     }
 }

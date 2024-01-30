@@ -8,8 +8,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import java.util.concurrent.Callable;
-
 public class Task implements Runnable, ApplicationListener {
     ErrorScreen error;
     String login;
@@ -29,35 +27,41 @@ public class Task implements Runnable, ApplicationListener {
     @Override
     public void run() {
         //new HttpClient().connectToServer(login, password);
-        handleResponse(new HttpClient().connectToServer(login, password));
+        String response = null;
+        try {
+            response = new HttpClient().connectToServer(login, password);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        handleResponse(response);
 
     }
 
     public void handleResponse(String response) {
-        res=response;
-        Gdx.app.debug("tag", "Task" +" "+ response + " 111");
-        Object o = null;
+        res = response;
+        Gdx.app.debug("tag", "Task" + " " + response + " 111");
+
+        if (response.trim().isEmpty()) {
+            // Handle empty response
+            Gdx.app.debug("tag", "Empty response received");
+            return;
+        }
+
         try {
-            o = new JSONParser().parse(response);
+            Object o = new JSONParser().parse(response);
+            JSONObject j = (JSONObject) o;
+
+            if (((Long) j.get("request")) == -1) {
+                game.setScreen(new ErrorScreen(game, "bad Auth", authScreen));
+            } else {
+                game.setScreen(new Map());
+            }
         } catch (ParseException e) {
-            throw new RuntimeException(e);
+            // Handle parse exception
+            Gdx.app.error("tag", "Error parsing JSON response", e);
         }
-        JSONObject j = (JSONObject) o;
-
-        if(((Long)j.get("request"))==-1){
-            //game.dispose();
-            //game.render();
-            //game.setScreen(new Map());
-            game.setScreen(new ErrorScreen(game,"bad Auth",authScreen));
-            //game.dispose();
-
-        }else {
-            //game.dispose();
-            game.setScreen(new Map());
-            //game.dispose();
-        }
-
     }
+
 
     @Override
     public void create() {
