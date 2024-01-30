@@ -21,7 +21,7 @@ public class HttpClient {
         HelperForJsonBody body = new HelperForJsonBody(new JSONObject());
         String jsonStr = body.FormAuth(login, password).toJSONString();
         Net.HttpRequest httpRequest = builder.newRequest().method(Net.HttpMethods.POST)
-                .url("https://2c16-2a00-1370-816d-a0fa-b53b-2958-b9be-47d7.ngrok-free.app/api")
+                .url("https://f537-2a00-1370-816d-a0fa-c1de-72b8-4090-34f.ngrok-free.app/api")
                 .content(jsonStr)
                 .header("Content-Type", "application/json")
                 .build();
